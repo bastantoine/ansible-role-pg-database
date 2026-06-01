@@ -1,0 +1,9 @@
+galaxy_info:
+  role_name: pg_database
+  author: bastantoine
+  description: "An Ansible role to create a PostgreSQL database with optional user and schema configuration."
+  license: "license (MIT)"
+  min_ansible_version: "2.20"
+
+dependencies:
+  - role: geerlingguy.pip
